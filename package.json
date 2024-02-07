@@ -1,0 +1,20 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "Usufruí a video-aula de Rodolfo Mori, de como elaborar a tela de login do Facebook utilizando o framework - Tailwind CSS. Usando conceitos basícos dos componentes, compreendendo a ferramenta.",
+  "main": "config.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
